@@ -13,4 +13,8 @@ router.post('/',(req,res,next) => {
     });
 });
 
+router.get('/:productId',(req,res,next)=>{
+    const id = req.params.productId;
+});
+
 module.exports= router;
