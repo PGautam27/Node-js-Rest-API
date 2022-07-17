@@ -19,6 +19,7 @@ router.get('/:productId',(req,res,next)=>{
         res.status(200).json({
             message: 'You discovered the special ID'
         });
+        
     } else {
         res.status(200).json({
             message: 'You passed an ID'
